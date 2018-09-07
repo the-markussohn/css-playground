@@ -1,6 +1,7 @@
 /* inline > id > classes, pseudo-classes, attributes > tag, pseudo-element selectors */
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
 #product-overview {
