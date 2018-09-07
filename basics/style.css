@@ -1,4 +1,7 @@
 /* inline > id > classes, pseudo-classes, attributes > tag, pseudo-element selectors */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 #product-overview {
     background: #f46842;
