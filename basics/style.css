@@ -8,7 +8,7 @@ body {
     background: #f46842;
     padding: 20px;
     border: 5px black solid;
-    margin: 20px;
+    width: 50%;
 }
 
 #product-overview h1 {
