@@ -1,3 +1,14 @@
-section {
+/* inline > id > classes, pseudo-classes, attributes > tag, pseudo-element selectors */
+
+#product-overview {
     background: #f46842;
+}
+
+h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+.section-title {
+    color: #2ddf5c;
 }
