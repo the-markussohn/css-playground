@@ -1,12 +1,4 @@
 /* inline > id > classes, pseudo-classes, attributes > tag, pseudo-element selectors */
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-}
 
 #product-overview {
     background: url("freedom.jpg");
@@ -73,27 +65,6 @@ body {
 
 .plan__feature {
     margin: 8px 0;
-}
-
-.button {
-    background: #0e4f1f;
-    color: white;
-    font: inherit;
-    border: 1.5px solid #0e4f1f;
-    padding: 8px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.button:hover,
-.button.active {
-    background: white;
-    color: #0e4f1f;
-}
-
-.button:focus {
-    outline: none;
 }
 
 #key-features {
