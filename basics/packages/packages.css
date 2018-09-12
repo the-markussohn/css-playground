@@ -1,8 +1,8 @@
 .background {
     background: url("../images/planning.jpg") center/cover;
     filter: grayscale(50%);
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     z-index: -1;
 }
@@ -45,7 +45,6 @@ main {
     float: right;
     border-right: none;
     border-left: 4px solid #0e4f1f;
-    ;
 }
 
 #free:hover,
