@@ -90,3 +90,25 @@ main {
     border: 2px solid #0e4f1f;
     font-size: 1.25rem;
 }
+
+@media (min-width: 42rem) {
+    main {
+        margin: 3rem auto;
+        max-width: 90rem;
+    }
+}
+
+@media (min-width: 90rem) {
+    .package {
+        border-left: 4px solid #0e4f1f;
+    }
+
+    #free {
+        border-right: 4px solid #0e4f1f;
+    }
+
+    #free:hover,
+    #free:active {
+        border-right-color: #ff5454;
+    }
+}
