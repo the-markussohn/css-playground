@@ -18,17 +18,6 @@
     font-size: 1.6rem;
 }
 
-@media (min-width: 40rem) {
-    #product-overview {
-        height: 40vh;
-        background-position: 40% 50%;
-    }
-
-    #product-overview h1 {
-        font-size: 2rem;
-    }
-}
-
 .section-title {
     color: #2ddf5c;
     text-align: center;
@@ -178,4 +167,26 @@
 .modal__action--negative:active {
     background: #ff5454;
     border-color: #ff5454;
+}
+
+@media (min-width: 40rem) {
+    #product-overview {
+        height: 40vh;
+        background-position: 50% 25%;
+    }
+
+    #product-overview h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 60rem) {
+    #product-overview {
+        height: 50vh;
+        background-position: 50% 25%;
+    }
+
+    #product-overview h1 {
+        font-size: 2.5rem;
+    }
 }
