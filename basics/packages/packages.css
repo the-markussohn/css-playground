@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "AnonymousPro";
+    src: url("anonymousPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: "AnonymousPro";
+    src: url("anonymousPro-Bold.ttf");
+    font-weight: 700;
+}
+
 .background {
     background: url("../images/planning.jpg") center/cover;
     filter: grayscale(50%);
@@ -89,6 +100,8 @@ main {
     color: #0e4f1f;
     border: 2px solid #0e4f1f;
     font-size: 1.25rem;
+    font-family: "AnonymousPro", sans-serif;
+    font-weight: 700;
 }
 
 @media (min-width: 42rem) {
