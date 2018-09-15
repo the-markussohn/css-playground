@@ -99,7 +99,7 @@ main {
     padding: 1rem;
     color: #0e4f1f;
     border: 2px solid #0e4f1f;
-    font: 700 1.25rem "AnonymousPro", sans-serif;
+    font-size: 1.2rem;
 }
 
 @media (min-width: 42rem) {
